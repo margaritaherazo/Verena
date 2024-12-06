@@ -9,7 +9,7 @@ body {
   
   /* Header Styles */
   .header {
-	background-color: #F2B390;
+	background-color: #f9edd3;
 	padding: 20px 0;
 	text-align: center;
   }
@@ -19,13 +19,13 @@ body {
   }
   
   .header h1 {
-	color: #7A340E;
+	color: #301500;
 	margin: 0;
   }
   
   /* Navigation Bar Styles */
   .navbar {
-	background-color: #C04F3F;
+	background-color: #6F7E5D;
   }
   
   .nav-list {
@@ -51,23 +51,27 @@ body {
   }
   
   /* Main Content Styles */
-  .main-content {
+  .content {
 	background-color: #FCF4E1;
 	padding: 40px 20px;
+	display: grid;
+    place-items: center; 
+    height: 100vh;       
+    text-align: center;
   }
   
-  .main-content h2 {
+  .content h2 {
 	font-size: 2rem;
 	margin-bottom: 20px;
   }
   
-  .main-content img {
+  .content img {
 	max-width: 100%;
 	height: auto;
 	margin-bottom: 20px;
   }
   
-  .main-content p {
+  .content p {
 	font-size: 1.1rem;
 	line-height: 1.6;
   }
