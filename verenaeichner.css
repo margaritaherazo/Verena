@@ -1,0 +1,169 @@
+/* Global Styles */
+
+body {
+	margin:0px;
+	background-color: #642C09;
+	}
+	
+td {
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	color: #53231C;
+	line-height: 18pt;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding-left: 10px;
+	
+	}
+	
+a {
+	color: #FF6600;
+	font-weight:bold;
+	}
+	
+a:hover {
+	color: #F2B390;
+	}
+
+/* ID Styles */
+
+#navigation td {
+	border-bottom: 2px solid #E9631B;
+	}
+	
+#navigation a {
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	color: #53231C;
+	line-height:24px;
+	letter-spacing:0.1em;
+	text-decoration: none;
+	display:block;
+	padding:8px 6px 10px 26px;
+	}
+	
+#navigation a:hover {
+	color: #FF6600;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	}
+	
+#logo 	{
+	font:24px Verdana, Arial, Helvetica, sans-serif;
+	color: #7D0000;
+	letter-spacing:0.2em;
+	line-height:30px;
+	}
+
+#tagline 	{	
+	font:18px Verdana, Arial, Helvetica, sans-serif;
+	color: #CCcc00;
+	letter-spacing:0.4em;
+	line-height:26px;
+	}
+
+#monthformat {
+	border-bottom: 2px solid #E6F3FF;
+	}
+		
+#dateformat {
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	color: #53231C;
+	letter-spacing:.2em;
+	}
+	
+#dateformat a {
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	color: #53231C;
+	font-weight:bold;
+	letter-spacing:.1em;
+	}
+	
+#dateformat a:hover {
+	color: #FF6600;
+	letter-spacing:.1em;
+	}
+	
+/* Class Styles */
+	
+.bodyText {
+	font:11px Verdana, Arial, Helvetica, sans-serif;
+	color:#53231C;
+	line-height:20px;
+	margin-top:0px;
+	}
+	
+	
+.subHeader {
+	font:bold 10px Verdana, Arial, Helvetica, sans-serif;
+	color: #F2B390;
+	line-height:16px;
+	letter-spacing:.2em;
+	}
+
+.quote {
+	font: 20px Verdana, Arial, Helvetica, sans-serif;
+	color: #759DA1;
+	line-height:30px;
+	}
+	
+.smallText {
+	font: 10px Verdana, Arial, Helvetica, sans-serif;
+	color: #53231C;
+	}
+	
+.navText {
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+	font-size:18px
+	color: #53231C;
+	line-height:16px;
+	letter-spacing:0.1em;
+	text-decoration: none;
+	}
+.braun_fett {color: #7A340E; font-weight: bold; }
+.braun_fett18 {font-size: 18px; color: #7A340E; font-weight: bold; font-family: Arial, Helvetica, sans-serif;}
+.papyrus24 {font-family: Papyrus; font-size:36px}
+.papyrus18 {font-family: Papyrus; font-size:20px}
+.titel2 {font-size: 16px; font-family: Arial, Helvetica, sans-serif; }
+.titel2_rot {font-size: 16px; color: #C04F3F; font-family: Arial, Helvetica, sans-serif; }
+.titel3 {font-size: 14px;font-weight: bold;}
+.weiss {color: #FFFFFF}
+.orange {
+	color: #53231C;
+}
+
+
+	
+.left {
+	text-align: left;
+}
+.Verdana_Arial_Helvetica_sans-serif_13 {
+	font-size: 13px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.Verdana_Arial_Helvetica_sans-serif_12 {
+	font-family: ".Verdana_Arial_Helvetica_sans-serif_12";
+}
+navText {
+	font-size: 18px;
+}
+#navigation tr td .navText strong {
+	font-size: 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 26px;
+}
+.text14 {
+	font-size: 14px;
+}
+.text16 {
+	font-size: 16px;
+	text-align: left;
+}
+.text16_zentriert {
+	font-size: 16px;
+	text-align: center;
+}
+.text18 {
+	font-size: 18px;
+}
+.text18_fett {
+	font-size: 18px;
+	font-weight:bold;
+}
