@@ -135,7 +135,9 @@ body {
 	left: 50%;
 	transform: translateX(-50%);
 	color: white;
-	font-size: 18px;
+	font-size: 20px;
+	font-weight: 400;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 	z-index: 3; 
 	text-align: center;
   }
@@ -143,12 +145,13 @@ body {
   
   /* Footer Styles */
   .footer {
-	background-color: #7A340E;
+	background: url(/img/green.jpg);
 	color: white;
 	text-align: center;
-	padding: 20px 0;
+	padding: 5px 0;
 	position: relative;
 	bottom: 0;
 	width: 100%;
+	font-size: 1.2rem;
   }
   
