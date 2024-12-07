@@ -29,3 +29,26 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
   
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const slides = document.querySelectorAll(".slide");
+    let currentIndex = 0;
+  
+    const showNextSlide = () => {
+      // Remove 'active' class from the current slide
+      slides[currentIndex].classList.remove("active");
+  
+      // Move to the next slide, looping back to the first slide
+      currentIndex = (currentIndex + 1) % slides.length;
+  
+      // Add 'active' class to the new current slide
+      slides[currentIndex].classList.add("active");
+    };
+  
+    // Start the slideshow with the first slide
+    slides[currentIndex].classList.add("active");
+  
+    // Change slides every 3 seconds (adjust interval as needed)
+    setInterval(showNextSlide, 3000);
+  });
+  
