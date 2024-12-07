@@ -92,7 +92,7 @@ body {
 	position: relative;
 	width: 100vw;
 	overflow: hidden;
-	height: 400px; 
+	height: 600px; 
 	margin: 0;
   }
   
@@ -112,6 +112,23 @@ body {
 	opacity: 1;
   }
   
+  .slideshow-overlay {
+	position: absolute;
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%); 
+	color: white; 
+	text-align: center; 
+	z-index: 2; 
+  }
+  
+  .slideshow-overlay h1, 
+  .slideshow-overlay h2 {
+	margin: 0;
+	padding: 0;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+	font-size: 2rem; 
+  }
   
   
   /* Footer Styles */
