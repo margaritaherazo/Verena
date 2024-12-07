@@ -85,6 +85,34 @@ body {
 	font-size: 1.1rem;
 	line-height: 1.6;
   }
+
+  /* hero*/
+.content-container {
+	text-align: center;
+	padding: 20px;
+  }
+  
+  .content-container h1, 
+  .content-container h2 {
+	margin: 10px 0;
+  }
+  
+  .image-container {
+	margin: 20px 0;
+	overflow: hidden; 
+  }
+  
+  .smooth-image {
+	opacity: 0; 
+	transform: translateY(30px); 
+	transition: opacity 1s ease, transform 1s ease;
+  }
+  
+ 
+  .smooth-image.visible {
+	opacity: 1;
+	transform: translateY(0); 
+  
   
   /* Footer Styles */
   .footer {
