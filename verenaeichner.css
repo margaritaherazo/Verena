@@ -63,7 +63,7 @@ body {
   /* Main Content Styles */
   #content {
 	background-color: #FCF4E1;
-	padding: 40px 20px;
+	padding: 0;
 	display: grid;
     place-items: center;     
     text-align: center;
@@ -92,7 +92,7 @@ body {
 	position: relative;
 	width: 100vw;
 	overflow: hidden;
-	height: 600px; 
+	height: 100vh; 
 	margin: 0;
   }
   
@@ -104,9 +104,8 @@ body {
 	height: 100%; 
 	object-fit: cover; 
 	opacity: 0; 
-	transition: opacity 1s ease-in-out;
-  }
-  
+	transition: opacity 2s ease-in-out;
+  }  
   
   .slide.active {
 	opacity: 1;
@@ -128,6 +127,17 @@ body {
 	padding: 0;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 	font-size: 2rem; 
+  }
+
+  .text18 {
+	position: absolute;
+	bottom: -250px; 
+	left: 50%;
+	transform: translateX(-50%);
+	color: white;
+	font-size: 18px;
+	z-index: 3; 
+	text-align: center;
   }
   
   

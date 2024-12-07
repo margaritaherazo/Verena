@@ -49,6 +49,6 @@ document.addEventListener("DOMContentLoaded", function () {
     slides[currentIndex].classList.add("active");
   
     
-    setInterval(showNextSlide, 3000);
+    setInterval(showNextSlide, 5000);
   });
   
