@@ -73,7 +73,7 @@ body {
   #content h2 {
 	font-size: 2rem;
 	margin-top: 100px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
   }
   
   #content img {
@@ -115,7 +115,7 @@ body {
   }
 
   .contact-image {
-	width: 60%; 
+	width: 40%; 
 	max-width: 50px; 
 	height: auto; 
 	border-radius: 8px;
@@ -134,12 +134,6 @@ body {
 	width: 50%; 
 	font-size: 1.1rem; 
 	line-height: 1.6;
-  }
-
-  .main-image {
-	width: 40%; 
-	max-width: 50px; 
-	height: auto; 
   }
   
 
