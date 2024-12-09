@@ -9,7 +9,7 @@
   }
 
 body {
-	font-family: 'Lato';
+	font-family: 'lato', sans-serif;
 	line-height: 1.6;
 	margin: 0;
 	padding: 0;
@@ -72,6 +72,7 @@ body {
   
   #content h2 {
 	font-size: 2rem;
+	margin-top: 100px;
 	margin-bottom: 20px;
   }
   
@@ -89,6 +90,26 @@ body {
   .main-image {
 	width: 350px;
 	height: auto;
+	
+  }
+
+  .bodyreading-container {
+	display: flex; 
+	align-items: flex-start; 
+	gap: 50px; 
+	padding: 40px; 
+  }
+
+  .main-image {
+	width: 40%; 
+	max-width: 350px; 
+	height: auto; 
+  }
+
+  .text-right {
+	width: 60%; 
+	font-size: 1.1rem;
+	line-height: 1.6; 
   }
 
   /* hero*/
