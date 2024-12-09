@@ -93,7 +93,9 @@ body {
 	
   }
 
-  .bodyreading-container {
+  /* bodyreading, intuitive, kontakt*/
+
+  .left-container {
 	display: flex; 
 	align-items: flex-start; 
 	gap: 50px; 
