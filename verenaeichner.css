@@ -104,7 +104,7 @@ body {
 
   .main-image {
 	width: 40%; 
-	max-width: 350px; 
+	max-width: 50px; 
 	height: auto; 
   }
 
@@ -113,6 +113,36 @@ body {
 	font-size: 1.1rem;
 	line-height: 1.6; 
   }
+
+  .contact-image {
+	width: 60%; 
+	max-width: 50px; 
+	height: auto; 
+	border-radius: 8px;
+  }
+
+  /* soulreading, reiki*/
+
+  .right-container {
+	display: flex; 
+	align-items: flex-start; 
+	gap: 50px; 
+	padding: 40px; 
+  }
+  
+  .text-left {
+	width: 50%; 
+	font-size: 1.1rem; 
+	line-height: 1.6;
+  }
+
+  .main-image {
+	width: 40%; 
+	max-width: 50px; 
+	height: auto; 
+  }
+  
+
 
   /* hero*/
 
