@@ -93,7 +93,7 @@ body {
 	
   }
 
-  /* bodyreading, intuitive, soulreading, reiki kontakt*/
+  /* bodyreading, intuitive, soulreading, reiki */
 
   .left-container {
 	display: flex; 
@@ -114,13 +114,26 @@ body {
 	line-height: 1.6; 
   }
 
+  /* contact*/
+
   .contact-image {
 	width: 40%; 
 	max-width: 50px; 
-	height: auto; 
-	border-radius: 8px;
+	max-height: auto; 
+	border-radius: 50%;
   }
 
+  .text-center {
+	text-align: center;
+	font-size: 1.1rem;
+	line-height: 1.6; 
+	max-width: 600px;
+	margin: 0 auto;
+  }
+
+  .contact {
+	margin-top: 100px;
+  }
 
   /* hero*/
 
