@@ -8,6 +8,14 @@
 	font-style: normal;
   }
 
+  @font-face {
+	font-family: 'Serathine';
+	src:
+     url('../fonts/Serathine.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+  }
+
 body {
 	font-family: 'lato', sans-serif;
 	line-height: 1.6;
@@ -28,7 +36,7 @@ body {
   }
   
   .header h1 {
-	font-family: 'Crystania';
+	font-family: 'Serathine';
 	color: #301500;
 	margin: 0;
   }
