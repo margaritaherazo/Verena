@@ -50,3 +50,12 @@ function initializeSlideshow() {
   
   setInterval(showNextSlide, 4000);
 }
+
+
+const menuToggle = document.querySelector('.menu-toggle');
+const navbar = document.querySelector('.navbar');
+
+
+menuToggle.addEventListener('click', () => {
+  navbar.classList.toggle('open');
+});
