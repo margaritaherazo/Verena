@@ -29,6 +29,10 @@ body {
 	background-color: #f9edd3;
 	padding: 20px 0;
 	text-align: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
   }
 
   .logo {
@@ -44,6 +48,11 @@ body {
   /* Navigation Bar Styles */
   .navbar {
 	background: url(/img/green.jpg);
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	z-index: 1000; 
+	position: relative;
   }
   
   .nav-list {
@@ -74,11 +83,14 @@ body {
 	border: none;
 	font-size: 1.5rem;
 	cursor: pointer;
+	z-index: 1001; 
+    position: relative;
+	margin-left: 40%;
   }
   
   /* Main Content Styles */
   #content {
-	background-color: #FCF4E1;
+	background-color: #f9edd3;
 	padding: 0;
 	display: grid;
     place-items: center;     
@@ -130,27 +142,6 @@ body {
 	line-height: 1.6; 
   }
 
-  /* contact*/
-
-  .contact-image {
-	width: 40%; 
-	max-width: 50px; 
-	max-height: auto; 
-	border-radius: 50%;
-  }
-
-  .text-center {
-	text-align: center;
-	font-size: 1.1rem;
-	line-height: 1.6; 
-	max-width: 600px;
-	margin: 0 auto;
-  }
-
-  .contact {
-	margin-top: 100px;
-  }
-
   /* hero*/
 
 .slideshow-container {
@@ -159,6 +150,7 @@ body {
 	overflow: hidden;
 	height: 100vh; 
 	margin: 0;
+	z-index: 1;
   }
   
   .slide {
@@ -170,6 +162,7 @@ body {
 	object-fit: cover; 
 	opacity: 0; 
 	transition: opacity 2s ease-in-out;
+	z-index: 1;
   }  
   
   .slide.active {
@@ -206,6 +199,28 @@ body {
 	z-index: 3; 
 	text-align: center;
   }
+
+    /* contact*/
+
+	.contact-image {
+		width: 40%; 
+		max-width: 50px; 
+		max-height: auto; 
+		border-radius: 50%;
+	  }
+	
+	  .text-center {
+		text-align: center;
+		font-size: 1.1rem;
+		line-height: 1.6; 
+		max-width: 600px;
+		margin: 0 auto;
+	  }
+	
+	  .contact {
+		margin-top: 100px;
+	  }
+	
   
   
   /* Footer Styles */
@@ -223,7 +238,7 @@ body {
   /* Media query for tablets (widths up to 768px) */
 @media (max-width: 768px) {
 	.menu-toggle {
-		display: block; /* Show toggle button on smaller screens */
+		display: block; 
 	  }
 	
 	  .navbar {
@@ -231,10 +246,8 @@ body {
 		flex-direction: column;
 		align-items: center;
 		width: 100%;
-		position: absolute;
-		top: 100%; 
-		left: 0;
-		background: #301500; 
+		position: relative;
+		background: url(/img/green.jpg);
 		z-index: 10;
 	  }
 	
@@ -246,11 +259,12 @@ body {
 		flex-direction: column; 
 		width: 100%;
 		text-align: center;
+		
 	  }
 	
 	  .nav-list li {
 		margin: 10px 0;
-	  }
+	  } 
   
 	.main-image {
 	  width: 60%; 
