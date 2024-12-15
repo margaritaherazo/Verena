@@ -52,10 +52,20 @@ function initializeSlideshow() {
 }
 
 
-const menuToggle = document.querySelector('.menu-toggle');
-const navbar = document.querySelector('.navbar');
-
-
-menuToggle.addEventListener('click', () => {
-  navbar.classList.toggle('open');
-});
+document.addEventListener('DOMContentLoaded', () => {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navbar = document.querySelector('.navbar');
+    const navLinks = document.querySelectorAll('.nav-list li a');
+  
+  
+    menuToggle.addEventListener('click', () => {
+      navbar.classList.toggle('open');
+    });
+  
+    
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        navbar.classList.remove('open');
+      });
+    });
+  });
