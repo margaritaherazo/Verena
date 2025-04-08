@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
   initializeSlideshow();
 
-  const navLinks = document.querySelectorAll("nav a");
+  const navLinks = document.querySelectorAll("nav a, .footer a");
 
   navLinks.forEach(link => {
       link.addEventListener("click", function (event) {

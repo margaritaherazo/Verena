@@ -235,6 +235,35 @@ body {
 	font-size: 1.2rem;
 	z-index: 10;
   }
+
+  /* Datenshutz Styles */
+
+  #datenschutz {
+	max-width: 900px;
+	margin: 80px auto;
+	padding: 20px;
+	text-align: left;
+	line-height: 1.6;
+	font-family: Arial, sans-serif;
+  }
+  
+  #datenschutz h1,
+  #datenschutz h2,
+  #datenschutz h3,
+  #datenschutz h4 {
+	margin-top: 30px;
+	color: #333;
+  }
+  
+  #datenschutz p {
+	margin-bottom: 15px;
+  }
+  
+  #datenschutz ul {
+	padding-left: 20px;
+	margin-bottom: 15px;
+  }
+  
   
   /* Media query for tablets (widths up to 768px) */
 @media (max-width: 768px) {
