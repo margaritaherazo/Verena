@@ -213,6 +213,14 @@ body {
 		max-height: auto; 
 		border-radius: 50%;
 	  }
+
+	  .wurzel-image {
+		width: 60%; 
+		max-width: 50px; 
+		max-height: auto; 
+		border-radius: 50%;
+		padding: 20px;
+	  }
 	
 	  .text-center {
 		text-align: center;
