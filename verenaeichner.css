@@ -128,23 +128,10 @@ body {
 
   /* bodyreading, intuitive, soulreading, reiki */
 
-  .left-container {
-	display: flex; 
-	align-items: flex-start; 
-	gap: 50px; 
-	padding: 40px; 
-  }
-
   .main-image {
 	width: 40%; 
 	max-width: 50px; 
 	height: auto; 
-  }
-
-  .text-right {
-	width: 60%; 
-	font-size: 1.1rem;
-	line-height: 1.6; 
   }
 
   /* hero*/
@@ -215,19 +202,20 @@ body {
 	  }
 
 	  .wurzel-image {
-		width: 60%; 
+		width: 50%; 
 		max-width: 50px; 
 		max-height: auto; 
 		border-radius: 50%;
-		padding: 20px;
+		padding: 50px;
 	  }
 	
 	  .text-center {
 		text-align: center;
 		font-size: 1.1rem;
 		line-height: 1.6; 
-		max-width: 600px;
+		max-width: 900px;
 		margin: 0 auto;
+		padding-bottom: 60px;
 	  }
 	
 	  .contact {
