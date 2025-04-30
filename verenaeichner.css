@@ -163,7 +163,7 @@ body {
   
   .slideshow-overlay {
 	position: absolute;
-	top: 50%; 
+	top: 40%; 
 	left: 50%; 
 	transform: translate(-50%, -50%); 
 	color: white; 
@@ -173,10 +173,10 @@ body {
   
   .slideshow-overlay h1, 
   .slideshow-overlay h2 {
-	margin: 0;
+	margin: 0px;
 	padding: 0;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-	font-size: 2rem; 
+	font-size: 3rem; 
   }
 
   .text18 {
