@@ -170,7 +170,7 @@ body {
   
   .slideshow-overlay {
 	position: absolute;
-	top: 30%; 
+	top: 40% !important;
 	left: 50%; 
 	transform: translate(-50%, -50%); 
 	color: white; 
@@ -188,18 +188,16 @@ body {
   }
 
   .text18 {
-	position: absolute;
-	bottom: -300px; 
-	left: 50%;
-	transform: translateX(-50%);
+	margin-top: 50px;
 	color: white;
 	font-size: 20px;
 	font-weight: 400;
 	font-family: 'Merriweather', serif;
 	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
-	z-index: 3; 
+	z-index: 3;
 	text-align: center;
   }
+  
 
     /* contact*/
 
@@ -241,6 +239,7 @@ body {
 		justify-content: center;
 		margin: 10px; 
 		font-size: 1.5rem;
+		color: #301500;
 	  }
 	  
 	
@@ -381,7 +380,7 @@ body {
 	  }
 	
 	  .slideshow-overlay {
-		top: 40%; 
+		top: 60% !important; 
 		left: 50%;
 		transform: translate(-50%, -50%);
 		font-size: 2rem; 
@@ -392,10 +391,11 @@ body {
 	  .slideshow-overlay h2 {
 		font-size: 2rem !important; 
 		margin: 0;
+		width: 1000px;
 	  }
 	
 	  .text18 {
-		bottom: -100px !important; 
+		margin-top: 100px !important; 
 		font-size: 16px; 
 		z-index: 2; 
 	  }
